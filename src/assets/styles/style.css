@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  background-color: rgb(147, 228, 147);
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: auto;
+  
+  padding: 15px;
+
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 1em gold;
+
+  text-align: center;
+  
+}
+
+.dataArea .inputArea {
+  width: 100%;
+  max-width: 150px;
+  max-height: 25px;
+
+  border: 1px solid black;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.dataArea .inputArea:focus {
+  outline: none;
+}
+
+.dataArea .btn {
+  max-height: 25px;
+  font-weight: bold;
+  border-left: none;
+  min-width: 80px;
+
+  background-color: black;
+  color: white;
+  border-color: rgb(147, 228, 147);
+  border: 1px solid black;
+  border-radius: 0px 5px 5px 0px;
+
+  cursor: pointer;
+}
+
+.dataArea .btn:hover {
+  outline: none;
+  color: rgb(147, 228, 147);
+}
+
+.listContent {
+  border: 2px solid black;
+  border-radius: 5px;
+  
+  height: 100%;
+
+  padding: 1.8rem;
+
+}
+
+.listContent ol li {
+  text-align: start;
+}
+
+.listContent ol li:hover {
+  font-weight: bold;
+}
+
+.dataArea {
+  display: flex;
+  
+  margin: 10px 0;
+
+}
+
+.deleteBtn {
+  width: 1.5em;
+  
+  cursor: pointer;
+}
+
+.fa-times-circle {
+  color: black;
+  border-radius: 50%;
+  
+}
+
+.fa-times-circle:hover {
+  color: rgb(216, 7, 7);
+}
